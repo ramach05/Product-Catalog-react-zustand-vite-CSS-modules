@@ -1,0 +1,10 @@
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 48px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  background: var(--bg-page);
+}
