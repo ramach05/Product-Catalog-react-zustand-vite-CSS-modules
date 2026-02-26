@@ -1,0 +1,115 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: var(--bg-page);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 527px;
+  min-height: 716px;
+  padding: 58px 48px;
+  background: var(--bg-card);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 24px 32px 0 rgba(0, 0, 0, 0.04);
+  background: #f9f9f9;
+  border: 6px solid var(--border-light);
+}
+
+.logo {
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+  border-radius: 100px;
+  width: 52px;
+  height: 52px;
+  box-shadow:
+    0 12px 8px 0 rgba(0, 0, 0, 0.03),
+    0 0 0 2px #fff;
+  background: #fff, linear-gradient(360deg, rgba(35, 35, 35, 0) 50%, rgba(35, 35, 35, 0.06) 100%);
+}
+
+.title {
+  text-shadow: inset 0 -2px 0 0 var(--overlay-light);
+  margin: 0;
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.subtitle {
+  margin: 0 0 28px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formError {
+  padding: 10px 12px;
+  background: #ffebee;
+  color: var(--danger);
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+}
+
+.submit {
+  margin-top: 4px;
+  padding: 12px 24px;
+  width: 100% !important;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 24px 0 16px;
+  width: 100%;
+}
+
+.dividerLine {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+  min-width: 0;
+}
+
+.dividerText {
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+}
+
+.register {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+}
+
+.registerLink {
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.registerLink:hover {
+  text-decoration: underline;
+}
